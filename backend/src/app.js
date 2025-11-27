@@ -22,7 +22,7 @@ connectDB();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://YOUR_FRONTEND_RENDER_URL"   // <-- REPLACE THIS
+    "https://employee-task-management-4-4097.onrender.com"  
   ],
   credentials: true
 }));
