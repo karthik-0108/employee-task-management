@@ -51,7 +51,7 @@ This system includes secure authentication, admin dashboard, employee dashboards
 
 ## 📸 Screenshots
 
-> Place your images inside a folder named **assets/** in your repository.
+
 
 ### 🔐 Login Page
 ![Login](login.jpg)
@@ -163,7 +163,7 @@ npm run dev
 
 ## 📝 Conclusion
 
-This project successfully completes the **ProU Fullstack Internship Assignment**, demonstrating:
+
 
 - Fullstack development skills  
 - Real-world REST API design  
