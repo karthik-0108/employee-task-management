@@ -35,11 +35,10 @@ app.use("/api/tasks", auth, taskRoutes);
 app.use("/api/dashboard", auth, dashboardRoutes);
 
 // Admin-only route example
+dotenv.config({ quiet: true });   // <-- Load `.env` BEFORE reading any process.env vars
 
 const PORT = process.env.PORT || 5000;
+
 app.listen(PORT, () => {
   console.log(`Emp-Manage backend running on port ${PORT}`);
-});
-dotenv.config({
-  quiet: true
 });
